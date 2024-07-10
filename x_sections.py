@@ -30,7 +30,7 @@ def export_to_pdf(df, id_lines):
 
 
 st.title('Cross Section Visualizer')
-st.title('Upload CSV file')
+st.markdown('Upload CSV file')
 uploaded_file = st.file_uploader('Choose a CSV file', type='csv')
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
