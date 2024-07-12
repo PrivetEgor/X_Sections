@@ -36,7 +36,7 @@ def export_to_png(df, id_lines):
     return png_files
 
 
-st.title('Cross Section Visualizer')
+st.title('Cross Section Visualizer📈')
 
 uploaded_file = st.file_uploader('Choose a CSV file', type='csv')
 if uploaded_file is not None:
